@@ -40,4 +40,18 @@ Em seguida, vamos instalar as bibliotecas necessárias usando a seguinte sequênci
 
 * pip install argparse
 
-Agora, coloque 
+Agora, coloque o arquivo de imagem que deseja filtrar na mesma pasta em que está o programa de processamento de imagem.
+
+Após isso, com o prompt de comando aberto, acesse a pasta em que estão programa e a imagem a ser filtrada.
+
+Agora, digite: python Processamento de imagem - Formas geometricas.py
+
+E, após aparecer uma mensagem pedindo para digitar 1 caso a cor do plano de fundo da imagem seja preta, e 0 caso seja branco, faça o que se pede.
+
+Agora, digite o arquivo de imagem. Ex de uma imagem que coloquei no repositório: shapes_and_colors.png
+
+O programa irá abrir a interface gráfica, que não está completa devido a conflitos entre a biblioteca kivy e as outras bibliotecas utilizadas, e infelizmente ainda não consegui resolver esse problema.
+
+Por fim, clique no botão do programa, e ele irá mudar a imagem para a imagem processada.
+
+Detalhe, o programa cria um arquivo imagem.png, da imagem processada na mesma pasta do programa.
