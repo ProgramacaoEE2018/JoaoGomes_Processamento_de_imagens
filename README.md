@@ -1,10 +1,20 @@
 # JoaoGomes_Processamento_de_imagens
 
+# Descrição do conceito, com função e motivação
+
 * Projeto: Detectar formas geométricas, e posteriormente avançar em processamento de imagens.
 
 * Motivação: Adquirir conhecimento e prática em processamento de imagem, uma área que me interessa bastante.
 
 * Descrição do conceito: Inicialmente, o objetivo é aprender a detectar formas geométricas utilizando a biblioteca OpenCV do C++. Posteriormente, avançar nos métodos de processamento de imagem, como detecção de cores.
+
+# Fluxograma
+
+![alt text](https://github.com/ProgramacaoEE2018/JoaoGomes_Processamento_de_imagens/blob/master/Fluxograma.PNG)
+
+# Diagrama de Classes
+
+![alt text](https://github.com/ProgramacaoEE2018/JoaoGomes_Processamento_de_imagens/blob/master/Diagrama%20de%20Classes.PNG)
 
 # **Tutorial - Biblioteca gráfica**
 
@@ -55,3 +65,9 @@ O programa irá abrir a interface gráfica, que não está completa devido a conflit
 Por fim, clique no botão do programa, e ele irá mudar a imagem para a imagem processada.
 
 Detalhe, o programa cria um arquivo imagem.png, da imagem processada na mesma pasta do programa.
+
+# Funcionamento do programa final
+
+Basicamente, ele necessita de duas entradas, o indicativo da cor do plano de fundo da imagem e o nome do arquivo de imagem a ser utilizada, respectivamente.
+
+Uma janela será aberta, com a imagem que deseja processar, e ao clicar no botão, a imagem será trocada pela nova imagem processada. Além disso, será criado um arquivo da nova imagem na pasta do programa.
